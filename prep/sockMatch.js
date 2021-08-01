@@ -14,13 +14,11 @@ let sockCounts = ar.reduce(function(obj, sock){
 
 sort ();
 function sort() {
- 
     for (let i = 1; i < sockCounts.length; i++) {
         const element = sockCounts[i];
         let sorted = Math.trunc(element)
         answer = answer + sorted 
     }
-
 }
 
 console.log(answer)

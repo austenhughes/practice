@@ -5,6 +5,9 @@ let trim = "";
 let letter = "a";
 let count = 0;
 
+//  set function to build string of set size filled with the s variable repeating
+//  find number of time a particular letter shows ups
+
 buildString();
 function buildString() {
    if (string.length < n){

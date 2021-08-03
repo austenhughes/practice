@@ -1,5 +1,5 @@
 let ar = [1,2,3,4,5]
-let moves = 2;
+let moves = 1;
 
 let movesMade = 0;
 let spread = [];
@@ -22,13 +22,13 @@ function cap(){
 
 function finish() {
     ar = [...string];
-    console.log (ar);
     movesMade = movesMade+1;
-    console.log(movesMade)
     if (movesMade !== moves) {
         string = "";
         spread = [];
         shift();
+    } else {
+        console.log(ar)
     }
 }
 

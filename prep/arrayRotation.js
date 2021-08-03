@@ -1,8 +1,15 @@
+// function to shift the array to the left 
+// moves first number to end
+// moves how ever many rotations is set in the moves variable
+// set array to any numbers 
+// small tweaks needed if you want to store an array of objects or strings instead of numbers 
+// those would be to push to an array instead of adding to a string and spreading that string
+
 let ar = [1,2,3,4,5]
 let moves = 1;
 
 let movesMade = 0;
-let spread = [];
+// let array = [];
 let string = "";
 
 shift();
@@ -25,7 +32,7 @@ function finish() {
     movesMade = movesMade+1;
     if (movesMade !== moves) {
         string = "";
-        spread = [];
+        // array = [];
         shift();
     } else {
         console.log(ar)

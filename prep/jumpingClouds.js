@@ -2,7 +2,9 @@
 // 1 means dont jump
 
 let path = [0,1,0,0,0,1,0];
-let hops = 0;
+// let path = [0,0,0,0,1,0];
+// let path = [];
+let hops = 1;
 
 for (let i = 1; i < path.length; i++) {
     const element = path[i];
